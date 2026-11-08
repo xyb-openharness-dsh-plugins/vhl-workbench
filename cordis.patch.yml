@@ -1,0 +1,6 @@
+- insert:
+    - id: vhl-main
+      name: "@xyb-community/vhl-workbench"
+      # 接线前置：宿主把业务资料根目录指向 dshHomePath('vhl')
+      config:
+        root: !!js dshHomePath('vhl')
